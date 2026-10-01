@@ -1,8 +1,13 @@
 #include<bits/stdc++.h>
+
 using namespace std;
+
 int main(){
+
     int n,m;
+    
     cin>>n>>m;
+    
     vector<string>a(n);
     for(auto&x:a)cin>>x;
     int r1=n,r2=-1,c1=m,c2=-1;
